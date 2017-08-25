@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bandtrak</title>
+    <meta name="viewport" content="initial-scale:1.0">
+    <meta charset="UTF-8">
+
+    <!-- Import stylesheet -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Import Google Loader to load gmaps -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <!-- Import Our Bandsintown Module -->
+    <script src="bit.js"></script>
+
+    <!-- Import Our Dates Module -->
+    <script src="dates.js"></script>
+
+    <!-- Import main script -->
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="leftPanel">
+            <form action="#" id="search_form">
+                <input type="text" name="search" id="band_search" /> <input type="submit" value="Search" />
+            </form>
+            <div id="dates">
+                <h2>Search for a artist to see their upcoming concert dates</h2>
+            </div>
+        </div>
+        <div id="rightPanel">
+            <div id="mapdiv"></div>
+        </div>
+    </div>
+</body>
+
+</html>
